@@ -57,7 +57,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
             return const CircularProgressIndicator();
           }
           if (snapshot.hasError) {
-            return Text("data");
+            return const Text("data");
           }
           return Padding(
             padding: const EdgeInsets.all(16.0),
